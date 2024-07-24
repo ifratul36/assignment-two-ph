@@ -30,16 +30,14 @@
           width: 1140px;
           height: 714px;
           margin: 0 auto;
-          background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
-
+         
      
      }
-
-
 
   /* nav-section */
   .span {
       color:rgba(230, 83, 60, 1)
+
   }
   .fit-ness {
       display: flex;
@@ -187,6 +185,8 @@
         justify-content: space-around;
         align-items: center;
         gap: 130px;
+        background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+
       }
 
       .image {
@@ -296,3 +296,24 @@
              align-items: center ;
              padding: 0px;
          }
+
+         /* challenging section*/
+         .bmi-text {
+              color: white;
+              border: 1px solid red;
+         }
+
+         .bmi-table {
+               color: white;
+               
+         }
+         .tab {
+             width: 19.38rem;
+             height: 13.5rem;
+             left: 11.81rem;
+             right: 58.81rem;
+             top: 8.63rem;
+             bottom: 8.31rem;
+            
+         }
+
