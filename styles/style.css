@@ -11,34 +11,24 @@
       }
       
 
-
-
-
-
-
-
 /*  shared section */
      body {
        background-color: black;
      }
-
-
 
   /* header section */
      .head-sec {
           /* border: 2px solid red; */
           width: 1140px;
           height: 714px;
-          margin: 0 auto;
-         
-     
+          margin: 0 auto;    
      }
 
   /* nav-section */
   .span {
       color:rgba(230, 83, 60, 1)
-
   }
+
   .fit-ness {
       display: flex;
       justify-content: space-around;
@@ -167,17 +157,41 @@
            border-radius: 12px;
            backdrop-filter: blur(20px);
            background: rgba(48, 48, 48, 0.54);
-           width: 150px;
-           height: 96px; 
+           width: 135px;
+           height: 86px; 
            color: white;
            
       }
-     
 
+      /* #box-div-a{
+        width: 135px;
+        height: 86px; 
+        color: white; 
+        box-sizing: border-box;
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        backdrop-filter: blur(1.25rem);
+        background: rgba(48, 48, 48, 0.54);
+        
+      } */
+     
       .bold {
         font-weight: 800;
       }
 
+       /*icon red */
+       /* .video-icon{
+          background-color: rgba(230, 83, 60, 1);
+          border-radius: 50% 50% 50% 50%;
+          width: 30px;
+          height: 30px;
+       } */
+
+       /* .div{
+           display: flex;
+           justify-content: space-around;
+           align-items: center;
+       } */
 
       /* image and text section header */
       .fit-sec {
@@ -300,20 +314,86 @@
          /* challenging section*/
          .bmi-text {
               color: white;
-              border: 1px solid red;
-         }
+              position: static;
+              width: 440px;
+              height: 100px;
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-start;
+              align-items: flex-start;
+              text-align:left;
+              flex: none;
+              order: 1;
+              margin: 0 auto;
+              margin-top: 40px;
+           }
+
+
+           .bmi-tb-form{
+              height: 360px;
+              margin-top: 40px;
+              margin-bottom: 40px;
+
+           }
+            
+           .bmi-main{
+              display: flex;
+              justify-content: space-evenly;
+           }
+
+           .bmi-form{
+            color: white;
+            margin-top: 20px;
+           }
+
+           .bmi-description{
+              margin-top: 2px;
+           }
 
          .bmi-table {
                color: white;
                
          }
-         .tab {
-             width: 19.38rem;
-             height: 13.5rem;
-             left: 11.81rem;
-             right: 58.81rem;
-             top: 8.63rem;
-             bottom: 8.31rem;
-            
+         table, th, td{
+              width: 320px;
+              margin: auto;
+              padding: 25px 25px 2px 2px;
+              text-align: center;
+              border: 1px solid rgba(255, 255, 255, 0.1);
+              border-collapse: collapse;
          }
 
+         .form2{
+          position: static;
+          width: 360px;
+          height: 70px;
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+          gap: 6px;
+          margin-top: 10px;
+         }
+         .bmi-tb-form{
+          background-color: rgb(34, 34, 34);
+         }
+         .form-btn{
+          background-color: rgba(255, 255, 255, 0.1);
+          border: none;
+          color: white;
+          border-radius: 10px;
+         }
+
+         #btn-form{
+          width: 360px;
+          height: 40px;
+          margin-top: 6px;
+          background-color: rgba(255, 255, 255, 0.1);
+          border: none;
+          color: white;
+          border-radius: 10px;
+         }
+
+         .btn-prime-div{
+            margin-top: 20px;
+         }
+        
+        

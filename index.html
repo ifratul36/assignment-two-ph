@@ -22,9 +22,9 @@
                     </div>
            </nav>
            <!-- banner section -->
-            <section class="fit-sec">
+      <section class="fit-sec">
                  <div class="fit-content">
-                       <h1 class="text-fit"> Get body in <br><span class="">shape</span> & stay <br>healthy</h1>
+                       <h1 class="text-fit"> Get body in <br><span id="shape">shape</span> & stay <br>healthy</h1>
                        <p class="text-description">A huge selection of health and fitness content, healthy recipes <br>  and transformation stories to help you get fit and stay fit!</p>
                         <div class="btn">   
                              <button class="btn-primary">Join Club Now!</button>                 
@@ -36,20 +36,25 @@
                     <img src="images/images 2.png" alt="">
                  </div>
             </section>
-            <!-- <section>
-                <div class="box-div">
-                    <div class="box-item">
-                         <p class="bold">350+</p>
-                         <p>Vdieo tutorial</p>
+           <!-- <section>
+                 <div id="box-div-a">
+                    <div class="div">
+                        <div class="video-icon">
+                           
+                        </div>
+                        <div>
+                            <h1>350+</h1>
+                            <p>Vdieo tutorial</p>
+                        </div>
                     </div>
-                </div>
-                <div class="box-div">
+                 </div>
+                 <div class="box-div">
                     <div class="box-sec">
-                         <p class="bold">500+</p>
+                         <h1 class="bold">500+</h1>
                          <p>Free Workout Vdieos</p>
                     </div>
-                </div> 
-            </section> -->
+                </div>
+           </section> -->
     </header>
     <main>
         <!-- change habit section -->
@@ -103,16 +108,18 @@
                  <h1 class="bmi-title">BMI Calculator</h1>
                  <p class="bmi-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
             </div>
-            <div class="bmi-form">
-                 <div class="bmi-table">
+          </section>
+          <section class="bmi-tb-form">  
+                <div class="bmi-main">    
+                     <div class="bmi-table">
                     <h1>BMI Calculator Chart</h1>
-                    <table border="2">
-                            <thead>
-                                <th>BMI</th>
-                                <th>Weight Status</th>
-                            </thead>
-                             <tbody>
-                                      <tr>
+                    <table>      
+                                    <tr>
+                                    <th>BMI</th>
+                                    <th>Weight Status</th>
+                                    </tr>
+                               
+                                   <tr>
                                           <td>Below 18.5</td>
                                           <td>Underweight</td>
                                       </tr>
@@ -128,30 +135,28 @@
                                           <td>30.0 - and Above</td>
                                           <td>Obese</td>
                                       </tr>
-                             </tbody>
                     </table>
-                 </div>
-                <div class="form">
-                          <h1 class="form-title">Calculate your  BMI</h1>
-                         <p class="form-description">We believe  fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
-                   <div>
-                          <input type="text" id="" placeholder="Height/cm">
-                          <input type="text" id="" placeholder="Weight/kg">
-                   </div>
-                   <div>
-                        <input type="text" id="" placeholder="Age">
-                        <select name="" id="">
-                             <option value="">Sex</option>
-                        </select>
-                   </div>
-                   <div>
-                        <select name="" id="">
-                             <option value="">Select an activity factor</option>
-                        </select>
-                   </div>
-                   <button class="btn-prime">Calculate</button>
+                     </div>
+                     <div class="bmi-form">
+                        <div class="form1">
+                            <h1 class="form-title">Calculate your BMI</h1>
+                            <p class="form-decription">We believe fitness should be accessible to everyone, everywhere, regardless 
+                            <br> of income or access to a gym. </p>
+                        </div>
+                        <div class="form2">  
+                             <button class="form-btn">height/cm</button>
+                             <button class="form-btn">Weight/kg</button>
+                             <button class="form-btn">age</button>
+                             <button class="form-btn">sex</button>
+                        </div>
+                        <div>
+                            <button id="btn-form">select an activity factor</button>
+                        </div>
+                        <div class="btn-prime-div">
+                            <button class="btn-primary">Calculate</button>
+                         </div>
+                     </div> 
                 </div>
-            </div>
          </section>
     </main>
     <footer>
