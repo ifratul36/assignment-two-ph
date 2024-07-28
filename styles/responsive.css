@@ -3,9 +3,15 @@
     .nav-hamburger-menu{
       color: white;
       display: block;
+      font-size: 30px;
    }
    .nav-options{
     display: none;
+   }
+   .head-sec{
+    max-width: 506px;
+    position: absolute;
+    height: auto;
    }
  
 }
