@@ -52,4 +52,27 @@
     #box-div{
         margin-left:210px;
     }
+    /* imgbox section */
+    .img-box{
+        margin-top: 260px;
+        margin-right:50px ;
+    }
+    .text-title-img{
+        font-size: 30px;
+        font-weight: 400px;
+        width: 250px;  
+        margin-left: 100px;
+    }
+    .text-description-img{
+        width: 150px;
+        margin-left: 40px;
+        margin-left: 150px;
+    }
+    #fit{
+        flex-direction: column;
+        margin-right: 250px;
+    }
+    .img-fit{
+        margin-right: 250px;
+    }
   }
