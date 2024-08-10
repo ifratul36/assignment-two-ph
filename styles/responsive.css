@@ -1,17 +1,12 @@
-@media screen and (max-width:800px){
-    .nav-options{
-       flex-direction: row;
-    }
- }
+
  @media screen and (max-width:576px){
     .fit-ness {
        display: flex;
-       justify-content: space-around;
+       justify-content: space-between;
        align-items: center;
-   }
-   .span{
-    font-size:25px;
-    font-weight:400;
+       /* border: 1px solid red; */
+       width: 90%;
+       margin: 0 auto;
    }
   .nav-hamburger-menu{
     color: white;
@@ -23,7 +18,7 @@
  }
  
  .head-sec{
-    width: 430px;
+    width: 100%;
   position: relative;
   height: auto;
   background: linear-gradient(180.00deg,rgba(119, 119, 119, 0.521),  rgba(17, 17, 17, 0.26) 100%);
@@ -32,52 +27,152 @@
     .fit-sec{
         display: block;
         flex-direction: column;
+        width: 100%;
+    }
+    .image{
+        width: 65%;  
+        margin: 0 auto; 
     }
     #image{
-        width: 300px;
-        margin-left: 60px;
+        width: 85%;
     }
     #text-fit{
-        font-size: 30px;
-        font-weight: 500px;
-        margin-left: 60px;
+        font-size: 45px;
+        font-weight: 700px;
+        width: 60%;
     }
     #text-description{
-        width: 250px;
-        margin-left: 60px;
+        width: 65%;
+        font-size: 25px;
+    }
+     .btn{
+        width: 50%;
     }
     #box-div-a{
-        margin-left:65px;
+        margin-left:95px;
     }
     #box-div{
-        margin-left:210px;
+        margin-left:260px;
     }
     /* imgbox section */
     .img-box{
-        margin-top: 260px;
+        margin-top: 200px;
         margin-right:50px ;
+        width: 100%;
     }
     .text-title-img{
         font-size: 30px;
         font-weight: 400px;
-        width: 250px;  
-        margin-left: 100px;
     }
-    .text-description-img{
-        width: 150px;
-        margin-left: 40px;
-        margin-left: 150px;
+    .text-img{
+        width: 80%;
     }
     #fit{
         flex-direction: column;
-        margin-right: 250px;
+       width: 50%;
+       margin: 0 auto;
     }
-    .img-fit{
-        margin-right: 250px;
+    .text-description-img{
+        width: 80%;
+       margin: 0 auto;
     }
-  }
-  @media (width < 576px){
-    .unique-right{
-        grid-template-columns: repeat(1,1fr );
+    /* run section */
+    .run{
+        flex-direction: column;
+        height: auto;
+        width: 97%;
+        padding: 10px;
     }
-  }
+    #btn-prime{
+        width: 300px;
+        margin: 0 auto;
+    }
+    #run-img{
+        margin-top: 20px;
+    } 
+    /* challenging section */
+     .bmi{
+        width: 100%;
+      height: auto;
+     }
+     .bmi-tb-form{
+        padding: 20px;
+    }
+    #table{ 
+        width: 99%;
+    }
+    .bmi-des{
+     font-size: 15px;
+    }
+    .bmi-main{
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .form-decription{
+        width: 60%;
+    }
+    .bmi-description{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .form2{
+      width: 100%;
+    }
+    .bmi-form{
+       padding: 10px;  
+    }
+    /* team section */
+    .team-section{
+        overflow: hidden;
+        margin-top: 20px;
+    }
+   .team-image{
+     grid-template-columns: repeat(1, 1fr);
+   }
+
+   .team-text-sec{
+    width: 70%;
+    margin: 0 auto;
+   }
+   
+   /* unique section */
+   .uniques{ 
+    grid-template-columns: repeat(1, 1fr);
+   }
+   .unique-left{
+     padding: 5px;
+   }
+   .unique-right{
+    padding: 5px;
+   }
+   /* footer section */
+    footer{
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   }
+   hr{
+    width: 70%;
+   }
+   .footer{
+    flex-direction: column;
+    padding-bottom: 30px;
+    height: auto;
+    gap: 20px;
+   }
+   .footer-options, li{
+    margin-top: -10px;
+    font-size: 15px;
+   }
+   .footer-div{
+       width: 70%;
+   }
+   .footer-options{
+    width: 70%;
+    padding: 10px;
+    justify-content: flex-start;
+   }
+  } 
+ 
